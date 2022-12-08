@@ -1,0 +1,33 @@
+.expense-item {
+  width: 95%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 0 20px;
+
+  background-color: rgb(216, 213, 213);
+  border-radius: 20px;
+}
+
+.expense-item_description {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: auto 20px;
+}
+
+.expense-item_price {
+  border: 2px solid white;
+  border-radius: 13px;
+  padding: 8px 15px;
+
+  background-color: purple;
+  font-weight: 700;
+}
