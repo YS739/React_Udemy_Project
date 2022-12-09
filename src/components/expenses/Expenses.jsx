@@ -1,28 +1,28 @@
 import "./Expenses.css";
 import ExpenseItem from "../Item/ExpenseItem";
 
-function Expenses({ expenses }) {
+function Expenses({ itmes }) {
   return (
     <div>
       <ExpenseItem
-        name={expenses[0].title}
-        amount={expenses[0].amount}
-        date={expenses[0].date}
+        name={itmes[0].title}
+        amount={itmes[0].amount}
+        date={itmes[0].date}
       ></ExpenseItem>
       <ExpenseItem
-        name={expenses[1].title}
-        amount={expenses[1].amount}
-        date={expenses[1].date}
+        name={itmes[1].title}
+        amount={itmes[1].amount}
+        date={itmes[1].date}
       ></ExpenseItem>
       <ExpenseItem
-        name={expenses[2].title}
-        amount={expenses[2].amount}
-        date={expenses[2].date}
+        name={itmes[2].title}
+        amount={itmes[2].amount}
+        date={itmes[2].date}
       ></ExpenseItem>
       <ExpenseItem
-        name={expenses[3].title}
-        amount={expenses[3].amount}
-        date={expenses[3].date}
+        name={itmes[3].title}
+        amount={itmes[3].amount}
+        date={itmes[3].date}
       ></ExpenseItem>
     </div>
   );
