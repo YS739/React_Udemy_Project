@@ -3,7 +3,7 @@ import ExpenseItem from "../Item/ExpenseItem";
 
 function Expenses({ itmes }) {
   return (
-    <div>
+    <div className="expenses">
       <ExpenseItem
         name={itmes[0].title}
         amount={itmes[0].amount}
